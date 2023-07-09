@@ -10,8 +10,7 @@ git clone https://github.com/MalayPhadke/Pluto_Camera_Python_Wrapper.git
 
 Please note, the scripts in these repo will only work on a **Linux OS**.
 
-
-
+[h264decoder Repository](https://github.com/DaWelter/h264decoder)
 
 ## Usage
 
