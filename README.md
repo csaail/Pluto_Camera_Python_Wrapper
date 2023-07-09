@@ -10,8 +10,15 @@ git clone https://github.com/MalayPhadke/Pluto_Camera_Python_Wrapper.git
 
 Please note, the scripts in these repo will only work on a **Linux OS**.
 
-[h264decoder Repository](https://github.com/DaWelter/h264decoder)
-
+After cloning, we need another repository for decoding the video frames. Go ahead and type:
+```bash
+git clone https://github.com/DaWelter/h264decoder
+```
+Go into the h264decoder directory and run:
+```bash
+sudo apt install libswscale-dev libavcodec-dev libavutil-dev
+sudo pip install .
+```
 ## Usage
 
 The __test_cam.py__ has the class with which we need to create drone camera Object. Run the __example.py__ script and make sure you get the drone stream. The script just creates an instance of the pluto_cam class and starts the camera stream.
