@@ -1,0 +1,5 @@
+Data: https://qr.page/g/2YancbHzpBT | Type: QRCODE
+Data: https://apps.apple.com/in/app/pluto-controller/id1173323776 | Type: QRCODE
+Data: https://create.dronaaviation.com/software | Type: QRCODE
+Data: https://www.youtube.com/@Dronaaviation | Type: QRCODE
+Data: https://www.instagram.com/dronaaviation/ | Type: QRCODE
