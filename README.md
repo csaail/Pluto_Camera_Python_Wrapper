@@ -19,6 +19,13 @@ Go into the h264decoder directory and run:
 sudo apt install libswscale-dev libavcodec-dev libavutil-dev
 sudo pip install .
 ```
+
+After this add the camera lib to users libs by running:
+```bash
+sudo cp ./libLeweiLib.so /usr/lib
+```
+Make sure you're in the Pluto Camera Python Wrapper directory while running this.
+
 ## Usage
 
 The __test_cam.py__ has the class with which we need to create drone camera Object. Run the __example.py__ script and make sure you get the drone stream. The script just creates an instance of the pluto_cam class and starts the camera stream.
