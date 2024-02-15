@@ -1,5 +1,5 @@
-from test_cam import *
 import sys, select, termios, tty
+from Pluto import pluto
 settings = termios.tcgetattr(sys.stdin)
 
 def getKey():
@@ -16,7 +16,7 @@ def getKey():
     termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
     return key
 
-my_pluto_cam = pluto_cam()
+my_pluto = pluto()
 
 count = 0
 
@@ -48,10 +48,6 @@ def identify_key(key):
         my_pluto.left_yaw()
     elif key == 160:
         my_pluto.right_yaw()
-    elif key == 100:
-        my_pluto_cam.take_pic()
-    elif key == 69:
-        my_pluto_cam.start_recording() 
     elif key == 120:
         my_pluto.rcAUX2 = 2000
         
